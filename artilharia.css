@@ -1,0 +1,56 @@
+body {
+    background: white;
+}
+
+/* INÍCIO CARROSSEL DE IMAGENS */
+
+* {
+    box-sizing: border-box;
+}
+
+body .img__carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.carrossel {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 650px;
+    width: 505px;    
+
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.artilharia{
+    
+    height: 600px;
+    width: 500px;
+    
+}
+
+.titulos__artilheiros {
+    font-family: "Raleway", Sans-serif;
+    font-size: 30px;
+    margin: auto;
+    color: #00FFFF	;
+    
+}
+/* FIM CARROSSEL DE IMAGENS */
+

@@ -1,0 +1,131 @@
+body {
+    background-image: radial-gradient(circle at 107.36% 90.17%, #009bef 0, #009aff 4.17%, #0098ff 8.33%, #0096ff 12.5%, #0092ff 16.67%, #008eff 20.83%, #0088ff 25%, #0080ff 29.17%, #0077ff 33.33%, #006dff 37.5%, #6460ff 41.67%, #9450ff 45.83%, #b53cf2 50%, #cf1edf 54.17%, #e300ca 58.33%, #f200b5 62.5%, #fd009e 66.67%, #ff0088 70.83%, #ff0071 75%, #ff005b 79.17%, #ff0045 83.33%, #ff002f 87.5%, #f90014 91.67%, #ef2100 95.83%, #e43b00 100%);
+}
+
+
+
+/* INÍCIO CARROSSEL DE IMAGENS */
+
+* {
+    box-sizing: border-box;
+}
+
+body .img__carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+section {
+    background: linear-gradient(0deg,rgba(210,10,70,.85),rgba(138,21,56,.85));
+    padding: 0;
+    margin:0;
+}
+
+.carrossel {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+
+.artilharia{
+    object-fit: fill;
+    object-position: bottom;
+}
+
+.titulos__artilheiros {
+    font-family: "Raleway", Sans-serif;
+    font-size: 30px;
+    margin: auto;
+    color: #00FFFF	;
+}
+
+
+/* FIM CARROSSEL DE IMAGENS */
+
+
+
+.escudos{
+    width: 350px;
+    right: 5000px;
+}
+
+
+.logo-copa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    right: 800px;
+}
+
+.logos__copas{
+    box-shadow: 9px 5px 5px #FF69B4;
+    max-width: 400px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    border: #CCF solid 1.5px;
+    box-shadow: #FF1493;
+}
+
+.ano__copa, .titulos__artilheiros{
+    background: linear-gradient(0deg,rgba(210,10,70,.85),rgba(138,21,56,.85));
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.titulo-edicoes{
+    background-image: linear-gradient(1turn,#020f2a,rgba(2,15,42,0));
+    text-align: center;
+    font-family: "Raleway", Sans-serif;
+    font-size: 90px;
+    font: bold;
+    color: #00FFFF	;
+}
+.titulo__ano__copa{    
+    font-family: "Raleway", Sans-serif;
+    font-size: 90px;
+    font: bold;
+    margin: auto;
+    color: #00FFFF	;
+}
+
+.informacoes__copas{
+    background-image: linear-gradient(1turn,#020f2a,rgba(2,15,42,0));
+}
+
+p{
+    margin-left: 20px;
+    margin-right: auto;
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.wrapper {
+    background-image: linear-gradient(1turn,#020f2a,rgba(2,15,42,0));
+    display: grid;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+
+
+

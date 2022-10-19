@@ -1,0 +1,89 @@
+
+body{
+    background-image: radial-gradient(circle at 107.36% 90.17%, #009bef 0, #009aff 4.17%, #0098ff 8.33%, #0096ff 12.5%, #0092ff 16.67%, #008eff 20.83%, #0088ff 25%, #0080ff 29.17%, #0077ff 33.33%, #006dff 37.5%, #6460ff 41.67%, #9450ff 45.83%, #b53cf2 50%, #cf1edf 54.17%, #e300ca 58.33%, #f200b5 62.5%, #fd009e 66.67%, #ff0088 70.83%, #ff0071 75%, #ff005b 79.17%, #ff0045 83.33%, #ff002f 87.5%, #f90014 91.67%, #ef2100 95.83%, #e43b00 100%);
+}
+
+
+p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    color: 	#FFFF;
+    padding: 10px 10px  2px ;
+    text-align: justify;    
+}
+
+.titulo__home{
+    font-family: "Open Sans Condensed";
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+.texto__home{
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: black;
+    margin: 10px;
+}
+
+.texto__inicio{
+    background-image: radial-gradient(circle at 75.2% 67.65%, #cddaf2 0, #cddaf2 50%, #cddaf2 100%);
+}
+
+header{
+    padding: 50px;
+    background: black;
+}
+
+.aconteceu__naquele__ano{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px  2px ;
+    text-align: justify;    
+    background: none;   
+}
+
+.texto__ano__copa{
+    background-image: radial-gradient(circle at 55.12% 55.12%, #00365a 0, #01355a 16.67%, #13345a 33.33%, #1f3259 50%, #283058 66.67%, #302f56 83.33%, #372d54 100%);
+    
+}
+
+div.pagina__fatos{
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+button .fa-forward {
+    content: "\f04e";
+    font-size: 20px;
+}
+
+button .fa-backward {
+    content: "\f04e";
+    font-size: 20px;
+}
+
+.fa-backward:before, .fa-forward:before {
+    content: "\f04e";
+    padding: 15px;
+    background: white;
+    font-size: 15px;
+}
+
+
+
+.fa-backward:hover, .fa-backward:hover{
+    opacity: 1;
+}
+
+
+
+
+iframe {    
+    margin:0 auto;
+    display: block;
+}
